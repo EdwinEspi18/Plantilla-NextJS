@@ -12,10 +12,16 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main className='flex flex-col items-center justify-center h-screen w-full bg-gradient-to-t from-blue-500 to-blue-900'>
+      <main className='flex flex-col items-center justify-center h-screen w-full bg-gradient-to-b from-purple-600 to-blue-600'>
         <h1 className={`text-white text-8xl ${inter.className}`}>
-          Hello World
+          Bienvenido 🚀
         </h1>
+        <h2 className={`text-white text-xl ${inter.className}`}>
+          Configurar el manejador del estado (ZUSTAND)
+        </h2>
+        <h2 className={`text-white text-xl ${inter.className}`}>
+          Configurar la conexion a la DB (PRISMA)
+        </h2>
         <svg
           className='h-32 w-32 animate-bounce'
           xmlns='http://www.w3.org/2000/svg'

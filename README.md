@@ -27,3 +27,16 @@ Puedes tambien chequear el repositorio [Plantilla Next.Js, Repositorio](https://
 ## Deployar en Vercel
 
 Facil de hacer el Build [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) de los creadores de Next.Js.
+
+## Prisma config
+
+Next steps:
+
+1. npx prisma
+2. npx prisma init
+3. Set the DATABASE_URL in the .env file to point to your existing database. If your database has no tables yet, read https://pris.ly/d/getting-star
+   ted
+4. Agregue el siguiente modelo de datos Prisma a su esquema Prisma en `prisma/schema.prisma`
+5. npx prisma migrate dev --name init
+6. npx prisma generate
+7. npx ts-node index.ts
